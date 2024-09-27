@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: gray;
+  }
+  
+  /* Fixed navbar styling */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    z-index: 9999;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Navbar list styling */
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Navbar item styling */
+  #navbar ul li {
+    margin: 0 20px;
+  }
+  
+  /* Navbar links styling */
+  #navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s, font-style 0.3s;
+  }
+  
+  /* Hover effect for navbar links - change color and font style */
+  #navbar ul li a:hover {
+    background-color: #555;
+    color: #ffcc00;
+    font-size: 20px; /* Increase font size on hover */
+    font-style: italic; /* Change font style on hover */
+    border-radius: 5px;
+  }
+  
+  /* Active (clicked) link styling - change font weight and color */
+  #navbar ul li a.active {
+    background-color: #222;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 20px; /* Slightly larger font size on click */
+    border-radius: 5px;
+  }
+  #home { background-color: #f4f4f4; }
+  #about { background-color: #ddd; }
+  #services { background-color: #bbb; }
+  #contact { background-color: #999; }
+  
